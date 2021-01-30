@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "Node",
+    "lib": [
+      "ES2015",
+      "ES2016",
+      "DOM",
+      "DOM.Iterable",
+      "ES2016.Array.Include",
+      "ES2015"
+    ],
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "outDir": "./build",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
+  }
+}

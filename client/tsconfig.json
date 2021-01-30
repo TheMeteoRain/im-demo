@@ -1,0 +1,33 @@
+{
+  "extends": "../tsconfig.base.json",
+  "include": ["./src/**/*"],
+  "compileOnSave": true,
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES5",
+    "moduleResolution": "Node",
+    "lib": ["ES2016", "DOM", "ESNext"],
+    "importHelpers": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "outDir": "./build",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "baseUrl": "./src",
+    "typeRoots": ["./node_modules/@types", "./src/typescript", "../common"],
+    "paths": {
+      "~*": ["./*"],
+      "@shared/*": ["../common/*"]
+    }
+  }
+}
